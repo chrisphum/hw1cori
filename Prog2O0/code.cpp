@@ -25,7 +25,7 @@ main (int ac, char *av[])
     // Make a vector and fill it with 0...N-1
     std::vector<int> myVector;
     for ( int i = 0; i < target; i++)
-        myVector.__emplace_back(i);
+        myVector.emplace_back(i);
 
     //~~~~~~~~~~
     //~~~~~~~~~~~~ DOING THE SUMS ~~~~~~~~~~~
